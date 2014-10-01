@@ -22,9 +22,9 @@ public class PushNotify {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String tokens = "79fea5f7254578eae971828cafe6b2f3aa358ec5fff1fd8507c1de11a47b21b8";
-		String certificatesPath = "/home/jobi/XMotion/workspace1/BackendAppleNoification/LokusPost_APNS_dev.p12";
-		String password = "inapp123";
+		String tokens = "";  // Set the device token
+		String certificatesPath = ""; // Set .p12 file name 
+		String password = ""; // password
 		_push(tokens, certificatesPath, password);
 	}
 
